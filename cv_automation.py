@@ -10,7 +10,7 @@ date = datetime.datetime.today().strftime("%B %d, %Y")
 # example: int docx: {{data}}, context should have 'date' as today's date name
 # so that it could be well recognized and substituted
 context = {
-    'data' : date, 
+    'date' : date, 
     'company_name' : company_name,
     'job_title' : job_title
 }
